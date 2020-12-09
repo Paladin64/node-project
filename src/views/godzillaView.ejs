@@ -1,0 +1,42 @@
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <title>Godzilla Kaiju Database</title>
+  <meta name="generator" content="Bootply" />
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/bootstrap-theme.min.css">
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <div class="navbar-header">
+        <h1><a class="navbar-brand"><%=webTitle%></a></h1>
+      </div>
+      <nav class="collapse navbar-collapse" role="navigation">
+        <ul class="nav navbar-nav">
+          <%for(let i = 0; i<nav.length; i++) {%>
+            <li>
+              <a href="<%=nav[i].link%>"><%=nav[i].title%></a>
+            </li>
+          <%}%>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <div class="upper-section">
+    <div class="subsection">
+      <ul class="godzilla-list">
+        <li><%=godzilla%></li>
+      </ul>
+    </div>
+  </div>
+</body>
+
+<script src="/js/jquery.min.js"></script>
+<script   src="/js/bootstrap.min.js"></script>
+
+</html>

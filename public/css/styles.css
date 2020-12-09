@@ -1,0 +1,122 @@
+body {
+    background-color: #202053;
+    
+}
+
+header {
+    background-color: #655f5f;
+    border-radius: 5px;
+    
+}
+
+.nav {
+    display: inline;
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+    
+}
+
+.nav li {
+    display: inline;
+    text-align: center;
+    padding: 5px;
+}
+
+.site-nav {
+    border: 3px solid #434343;
+    border-radius: 5px;
+    background-color: #555a8a;
+    
+}
+
+h1{
+    color: #4040a9;
+    text-align: center;
+    font-family: cursive, 'Times New Roman', serif;
+    font-size: 70px;
+    text-decoration: underline;
+    
+}
+
+h2 {
+    color: #101080;
+    border-bottom: 4px solid #404040;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-family: 'Times New Roman', serif;
+    font-size: 50px;
+    
+}
+
+.content-header {
+    font-size: 45px;
+    
+}
+
+h3 {
+    font-family: Arial, sans-serif;
+    border-bottom: 2px solid;
+    color: #252525;
+    font-size: 25px;
+    
+}
+
+.uppersection {
+    background-color: #656575;
+    padding: 5px;
+    margin: 5px 0 5px 0;
+    border-radius: 10px;
+    
+}
+
+.subsection {
+    background-color: #555a8a;
+    margin: 10px 0 10px 0;
+    padding: 5px;
+    border-radius: 10px;
+    
+}
+
+.section-contents {
+    border: 2px solid #333383;
+    font-family: Garamond, 'Times New Roman', serif;
+    padding: 2px;
+    border-radius: 5px;
+    
+}
+
+p {
+    color: #102010;
+    font-family: fantasy, Helvetica, sans-serif;
+    font-size: 20px;
+    
+}
+
+a {
+    color: #a04004;
+    text-decoration: none;
+    
+}
+
+img {
+    margin: 5px;
+    border: 2px solid;
+    border-radius: 5px;
+    
+}
+
+ul {
+    font-size: 20px;
+    font-family: fantasy, Helvetica, sans-serif;
+    color: #112111;
+    
+}
+
+.godzilla-list {
+    list-style-type: none;
+}
+
+.godzilla-name {
+    font-size: 35px;
+}
